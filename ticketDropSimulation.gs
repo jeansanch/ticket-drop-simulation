@@ -16,7 +16,7 @@ function simulation() {
   var numbers = new Array(30).fill(0);
   var j;
   
-  for(i = 0; i < 1000; i++){
+  for(i = 0; i < 500; i++){
     j = simulate(values[0][0]);
     numbers[j] += 1;
   }
