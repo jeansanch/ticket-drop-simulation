@@ -59,7 +59,7 @@ function simulate(day){
       }
       else{
         //last portal skip ticket drop
-        if(Math.random() < (1 - (0.96 ** (maxDay-day)/5 - 1)))
+        if(Math.random() < (1 - (0.96 ** ((maxDay-day)/5 - 1))))
           total++;
         day = maxDay;
       }
